@@ -1,0 +1,63 @@
+.header-aprender-bg {
+  background: #000;
+  padding: 30px;
+}
+.header-aprender {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-aprender h1 {
+  font-size: 25px;
+  color: #fff;
+  font-family: sans-serif;
+}
+.header-aprender a {
+  text-decoration: none;
+  padding: 15px 30px;
+  display: block;
+  background: #222;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.header-aprender a:hover {
+  background: #333;
+}
+@media (max-width: 800px) {
+  .header-aprender h1 {
+    font-size: 20px;
+  }
+}
+
+.main-imagem img {
+  display: block;
+  max-width: 100%;
+}
+
+.text {
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.text img {
+  padding-bottom: 60px;
+}
+.braco-guita {
+  background-image: url(../img/violao002-1-700x394.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 400px;
+}
+.text-2 {
+  font-size: 35px;
+  font-family: sans-serif;
+  padding-bottom: 30px;
+}
+.imagem-fim img {
+  padding-bottom: 30px;
+  max-width: 100%;
+}
